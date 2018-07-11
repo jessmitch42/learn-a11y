@@ -25,3 +25,13 @@ main {
   background: green;
   color: red;
 }
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  color: red;
+}
+
+.skip-link:focus {
+  top: 100px;
+}
